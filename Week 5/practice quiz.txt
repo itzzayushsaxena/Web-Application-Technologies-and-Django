@@ -1,0 +1,83 @@
+1.Question 1
+Structured Query Language (SQL) is used to (check all that apply)
+
+Insert data       ✓
+
+Delete data       ✓
+
+Create a table       ✓
+
+Run python
+
+2.Question 2
+Which of these is the correct syntax to make a new database using command line?
+
+CREATE DATABASE people;       ✓
+
+CREATE people;
+
+MAKE DATASET people;
+
+MAKE people;
+
+3.Question 3
+"INSERT INTO" is the keyword used to insert data into tables.
+
+True       ✓
+
+False
+
+4.Question 4
+Which keyword is used to add conditions to your query?
+
+WHERE       ✓
+
+IF
+
+ONLYIF
+
+SELECT
+
+5.Question 5
+Which command is used to retrieve all records from the table Users?
+
+SELECT * FROM Users       ✓
+
+RETRIEVE all FROM Users
+
+SELECT all FROM Users
+
+RETRIEVE * FROM Users
+
+6.Question 6
+Which keyword will cause the results of the query to be displayed in sorted order?
+
+WHERE
+
+ORDER BY       ✓
+
+None of these
+
+GROUP BY
+
+7.Question 7
+The LIMIT clause helps to narrow down the number of rows returned by the query.
+
+True       ✓
+
+False
+
+8.Question 8
+Images, PDFs, and movies cannot be stored in a database.
+
+True
+
+False       ✓
+
+9.Question 9
+A primary key can be set to null.
+
+True
+
+False       ✓
+

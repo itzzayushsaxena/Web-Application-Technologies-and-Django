@@ -1,0 +1,16 @@
+Autograder Django Tutorial 01
+Assignment instructions: https://www.dj4e.com/assn/dj4e_install.md . This assignment will cover the material in Part 1 of the Django tutorial at https://docs.djangoproject.com/en/3.0/intro/tutorial01/ but since we are doing the installation on PythonAnywhere you will need to go back and forth between the Django tutorial and our instructions to finish the assignment.
+
+To receive a grade for this assignment, include this string 3d460f2a on the pages of your application.
+
+If you need to run this grading program on an application that is running on your laptop or desktop computer with a URL like http://localhost... you will need to install and use the NGrok or LocalTunnel application to get a temporary Internet-accessible URL that can be used with this application. Make sure to use Django's port 8000 and not port 8888 as is used in the above documentation.
+
+Here is a sample of what you might put into your views.py.
+
+    return HttpResponse("Hello, world. 3d460f2a is the polls index.")
+
+Also you will need to edit the file mysite/mysite/settings.py and change the following line:
+
+ALLOWED_HOSTS = ['*']
+
+Please enter the URL of your web site to grade:  http://ayushsaxena.pythonanywhere.com/polls/

@@ -1,0 +1,34 @@
+Welcome Ayush Saxena from Web Application Technologies and Django
+
+To get credit for this assignment, perform the instructions below and enter the code you get here:
+
+Answer: 4272616E6E616E3336
+ 
+(Hint: starts with 427)
+
+Instructions
+
+Create a table in the database called "Ages":
+
+CREATE TABLE Ages ( 
+  id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL UNIQUE,
+  name VARCHAR(128), 
+  age INTEGER
+);
+
+Then make sure the table is empty by deleting any rows that you previously inserted, and insert these rows and only these rows with the following commands:
+
+DELETE FROM Ages;
+INSERT INTO Ages (name, age) VALUES ('Rebeka', 38);
+INSERT INTO Ages (name, age) VALUES ('Juliette', 31);
+INSERT INTO Ages (name, age) VALUES ('Brannan', 36);
+INSERT INTO Ages (name, age) VALUES ('Samanthalee', 37);
+Once the inserts are done, run the following SQL command:
+SELECT hex(name || age) AS X FROM Ages ORDER BY X;
+
+Find the first row in the resulting record set and enter the long string that looks like 53656C696E613333.
+
+If you are using the SQLite command line interface, you can use the ".quit" command to exit the program.
+
+Note: This assignment must be done using SQLite - in particular, the SELECT query above will not work in any other database. So you cannot use MySQL or Oracle for this assignment.
+

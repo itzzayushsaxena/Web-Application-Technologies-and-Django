@@ -1,0 +1,234 @@
+1. Question 1
+When a browser connects to a web server to retrieve a document, what default TCP/IP port is used?  1 / 1 point
+
+25
+
+80       ✓
+
+142
+
+119
+
+420
+
+2. Question 2
+When a browser connects to a web server to retrieve a document, what command is sent to the server?  1 / 1 point
+
+DELE
+
+PUT
+
+GET       ✓
+
+POST
+
+3. Question 3
+What does the second "T" of HTTP stand for?  1 / 1 point
+
+movemenT
+
+Transfer       ✓
+
+Transpose
+
+Transport
+
+4. Question 4
+Which of the following is NOT part of a Uniform Resource Locator:  1 / 1 point
+
+Host
+
+Protocol
+
+Operating System       ✓
+
+Document
+
+5. Question 5
+Which HTML tag typically generates a request to retrieve a document from the server when it is clicked? 1 / 1 point
+
+p
+
+img
+
+a       ✓
+
+div
+
+h1
+
+b
+
+6. Question 6
+What standards organization publishes many of the documents that describe the protocols we use on the Internet?  1 / 1 point
+
+RIA
+
+IRR
+
+Educause
+
+IETF       ✓
+
+6-Sigma
+
+7.Question 7
+Which of the HTTP headers does the browser look at to decide how to display the retrieved document?  1 / 1 point
+
+ETAG
+
+Content-length
+
+Content-type       ✓
+
+Format
+
+Location
+
+Display-type
+
+8.Question 8
+In Python, what is the difference between an open file and a socket?  1 / 1 point
+
+A program can rewind a socket and start writing again at the beginning of the socket
+
+When you open a file, you get a read and write handle to allow simultaneous operations
+
+A program writes to a socket, it can read its data back after closing the socket
+
+A socket can be simultaneously read and written       ✓
+
+9.  Question 9
+What must happen before a client can open a socket?  1 / 1 point
+
+The client must be in the same folder as the server
+
+The client must create a local file with the same name as the socket
+
+The server must allocate sufficient memory to handle any needed retransmissions
+
+The client must be on the same system as the server
+
+A server must be running that is listening for socket connections       ✓
+
+10. Question 10
+What port is used for Simple Mail Transfer Protocol (SMTP)?  1 / 1 point
+
+25       ✓
+
+119
+
+420
+
+142
+
+80
+
+11. Question 11
+What port is used by default for Secure HTTP (https)?  1 / 1 point
+
+443       ✓
+
+80
+
+25
+
+119
+
+142
+
+12. Question 12
+What is the topic of the Internet Engineering Task Force document RFC2616?  1 / 1 point
+
+FTP - File Transfer Protocol
+
+SMTP - Simple Mail Transfer Protocol
+
+POP - Post Office Protocol
+
+HTTP - HyperText Transfer Protocol       ✓
+
+Message Data Types
+
+13. Question 13
+What is the topic of the Internet Engineering Task Force document RFC42?  1 / 1 point
+
+HTTP - HyperText Transfer Protocol
+
+SMTP - Simple Mail Transfer Protocol
+
+Message Data Types       ✓
+
+POP - Post Office Protocol
+
+FTP - File Transfer Protocol
+
+14. Question 14
+Which of these Internet Engineering Task Force (IETF) documents described the "Internet Control Message Protocol"?  1 / 1 point
+
+RFC1224
+
+RFC815
+
+RFC5325
+
+RFC792       ✓
+
+15. Question 15
+What is the purpose of encode() in the socket1.py code: 1 / 1 point
+
+To convert the data to UTF-8 before sending       ✓
+
+To break the data into packets for network transmission
+
+To make sure that the web server properly recognizes the GET command
+
+To check if there is any data ready to send
+
+16. Question 16
+What can't you see in the Browser Developer Mode for most browsers?  1 / 1 point
+
+The HTTP response code (like 200 or 404) for each request
+
+The request and response headers for retrieved documents
+
+The browser Document Object Model (DOM)
+
+The code that runs in the server       ✓
+
+17. Question 17
+In the sample server.py code, which function call actually waits for incoming socket connection requests?  1 / 1 point
+
+recv()
+
+bind()
+
+socket()
+
+listen()       ✓
+
+decode()
+
+18. Question 18
+In the sample server.py code, which function call will fail if another application is already using a port?  1 / 1 point
+
+bind()       ✓
+
+recv()
+
+socket()
+
+listen()
+
+decode()
+
+19. Question 19
+Which Python library makes it very easy to make HTTP requests from Python?  1 / 1 point
+ 
+urllib       ✓
+
+decode
+
+re
+
+json
